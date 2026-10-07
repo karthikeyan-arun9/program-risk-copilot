@@ -3,6 +3,7 @@
 An AI agent on Cloudflare that reads program and change status updates, scores delivery risk, and keeps a persistent risk register. It flags risk for a human to decide on; it never makes a go/no-go call itself.
 
 **Live demo:** https://orange-grass-8b45.karthikeyan-arun9.workers.dev
+**Design note:** [DESIGN.md](DESIGN.md)
 
 Built from Cloudflare's [agents-starter](https://github.com/cloudflare/agents-starter) template. The agent logic, tools and reliability safeguards are in [`src/server.ts`](src/server.ts).
 
